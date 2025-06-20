@@ -1,8 +1,11 @@
 [project]
 name = "comobj2py"
-version = "0.1.1"
+version = "0.0.1"
 description = "com对象转py调用源码"
 readme = "README.md"
+license = { text = "MIT" }  # 关键声明
+# 主页地址
+urls = { Homepage = "https://github.com/111hgx/comobj2py.git" }
 authors = [
     { name = "haogaoxing", email = "jjx000@qq.com" }
 ]
