@@ -1,6 +1,6 @@
 [project]
 name = "comobj2py"
-version = "0.0.1"
+version = "0.0.4"
 description = "com对象转py调用源码"
 readme = "README.md"
 license = { text = "MIT" }  # 关键声明
