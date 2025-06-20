@@ -1,0 +1,19 @@
+[project]
+name = "comobj2py"
+version = "0.1.0"
+description = "com对象转py调用源码"
+readme = "README.md"
+authors = [
+    { name = "haogaoxing", email = "jjx000@qq.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pywin32>=38",
+]
+
+[project.scripts]
+comobj2py = "comobj2py:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
