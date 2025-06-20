@@ -31,8 +31,8 @@ mindmanager-pluggin/
 
 1. 克隆项目：
 ```bash
-git clone [repository-url]
-cd mindmanager-pluggin
+git clone https://github.com/111hgx/comobj2py.git
+cd comobj2py
 ```
 
 2. 安装依赖：
@@ -44,7 +44,7 @@ uv add pywin32
 
 1. 运行接口生成器：
 ```bash
-python com_interface.py
+python comobj2py
 ```
 
 2. 输入 COM 对象名称，例如：
@@ -102,6 +102,7 @@ def main():
 
         # 创建一个新文档
         # new_doc = docs.Add()
+        # new_doc.Activate()  # 激活新创建的文档,打开mindmanager窗口
         # print(f"已创建新文档")
 
         # 打印当前选项值
